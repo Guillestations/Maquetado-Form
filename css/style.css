@@ -20,7 +20,7 @@
 body{
     align-items: center;
     background-color: var(--white);
-    background: url("https://res.cloudinary.com/dbhnlktrv/image/upload/v1599997626/background_oeuhe7.jpg");
+    background: url("https://www.damos.co/fotosnoticias/mac_tamano_de_las_imagenes_en_redes_sociales_en_2020_1593971816.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -41,13 +41,13 @@ body{
     color: var(--gray);
     font-size: 0.9rem;
     margin: 1.5rem 0;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .container{
     background-color: var(--white);
     border-radius: var(--button-radius);
-    box-shadow: 0 0.9rem 1.7rem rgba(0, 0, 0, 0.25), 0 0.7rem 0.7rem rgba(0, 0, 0, 0.22);
+    box-shadow: 0 0.9rem 1.7rem rgba(0, 0, 0, 1), 0 0.7rem 0.7rem rgba(0, 0, 0, 1);
     height: var(--max-height);
     max-width: var(--max-width);
     overflow: hidden;
@@ -103,7 +103,7 @@ body{
 
 .superponer{
     background-color: var(--lightblue);
-    background: url("https://res.cloudinary.com/dbhnlktrv/image/upload/v1599997626/background_oeuhe7.jpg");
+    background: url("https://www.damos.co/fotosnoticias/mac_tamano_de_las_imagenes_en_redes_sociales_en_2020_1593971816.jpg");
     background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -203,7 +203,9 @@ body{
 	49.99% {
 		opacity: 0;
 		z-index: 1;
+		
 	}
+	
 
 	50%,
 	100% {
@@ -211,3 +213,37 @@ body{
 		z-index: 5;
 	}
 } 
+@media screen and (max-width: 735px){
+	.form > .btn {
+		font-size: 0.6rem;
+		padding: 10px;
+	}
+
+	#crear.btn{
+		font-size: 0.6rem;
+		padding: 10px;
+	}
+
+	#iniciar.btn{
+		font-size: 0.6rem;
+		padding: 10px;
+	}
+}
+@media screen and (max-width: 430px){
+	.form > .btn {
+		font-size: 0.6rem;
+		padding: 10px;
+	}
+
+	#crear.btn{
+		font-size: 0.6rem;
+		padding: 8px;
+
+	}
+
+	#iniciar.btn{
+		font-size: 0.6rem;
+		padding: 8px;
+	}
+}
+
